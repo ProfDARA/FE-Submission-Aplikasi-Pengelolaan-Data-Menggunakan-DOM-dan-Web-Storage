@@ -1,0 +1,207 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: cornflowerblue;
+    border-radius: 0.6rem;
+}
+
+
+body, input, button {
+    font-family: 'Open Sans', sans-serif;
+}
+
+input, button {
+    font-size: 1.1rem;
+    height: 33px;
+}
+
+
+input{
+    outline: none;
+}
+
+button{
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    transition: 250ms;
+    opacity: 0.7;
+}
+
+.w-icon{
+    width: 22px;
+}
+
+.bookSubmit{
+    text-align: center;
+}
+
+
+
+header{
+    width: 100%;
+    display: flex;
+}
+
+.header {
+    overflow: hidden;
+    background-color: #31dffd;
+    padding: 20px 10px;
+    width: 100%;
+}
+
+
+.header-left {
+    width: 30%;
+    display: flex;
+    left: 20%;
+}
+
+.header-right {
+    width: 30%;
+    position: flex;
+}
+
+main{
+    display: inline-block;
+    padding: 30px 10px;
+    margin: 2%;
+    box-shadow: whitesmoke;
+    background-color: #b2d9db81; 
+    text-align: left;
+    width: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+.bookshelf {
+    width: 98%;
+    margin: 16px 0 0 0;
+    padding: 5px;
+    background-color: whitesmoke;
+}
+
+
+.bookshelf-list {
+    height: 100%;
+    overflow: hidden;
+}
+
+.bookshelf-item {
+    background-color: white;
+    height: 80%;
+    padding: 1rem;
+    overflow-x: auto;
+}
+
+.book-list {
+    display: flex;
+    gap: 1rem;
+    padding: 0rem 1rem;
+}
+
+.book-item {
+    background-color: rgba(139, 255, 249, 0.664);
+    border: 1px solid #e2e2e2;
+    flex: 0 0 250px;
+    padding: 1rem;
+    line-height: 1.7rem;
+}
+
+
+.open-button {
+    background-color: #13a700;
+    color: white;
+    padding: 20px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    position: fixed;
+    bottom: 7px;
+    right: 28px;
+    width: 280px;
+    height: 8%;
+    text-align: center;
+}
+  
+
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+}
+  
+
+.form-container {
+    max-width: 400px;
+    padding: 10px;
+    background-color: white;
+  }
+  
+
+.form-container input[type=text], .form-container input[type=text] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+
+.form-container input[type=text]:focus, .form-container input[type=text]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+
+.form-container .btn {
+    background-color: #f5f5f5;
+    color: lightblue;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  
+
+.form-container .cancel {
+    background-color: red;
+    height: 100%;
+    color: white;
+  }
+  
+
+.form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+
+
+
+
+
+
